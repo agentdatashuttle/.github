@@ -1,16 +1,16 @@
 # Agent Data Shuttle (ADS)
 
 <p align="center">
-  <img src="../assets/intro.png" alt="Agent Data Shuttle Logo" />
-</p>
-
-<p align="center">
   <strong>Open, modular, and language-agnostic data and agent interoperability for "truly autonomous" AI workflows</strong>
 </p>
 
 **Agent Data Shuttle (ADS)** is an open-source protocol for connecting AI agents to realtime data sources - across languages, runtimes, and platforms.
 
 ADS enables seamless autonomous invocation of your AI agents, allowing them to react to events, monitor systems, and interact with tools in real-time without human intervention.
+
+<p align="center">
+  <img src="../assets/intro.png" alt="Agent Data Shuttle Logo" />
+</p>
 
 ---
 
@@ -27,14 +27,14 @@ ADS enables seamless autonomous invocation of your AI agents, allowing them to r
 
 ## Project Structure (share a ⭐!)
 
-| Repository                                                                         | Description                      |
-| ---------------------------------------------------------------------------------- | -------------------------------- |
-| [`ads-bridge`](https://github.com/agentdatashuttle/ads-bridge)                     | Core bridge server and protocol  |
-| [`ads-documentation`](https://github.com/agentdatashuttle/ads-documentation)       | Docs, concepts, and architecture |
-| [`ads-example-projects`](https://github.com/agentdatashuttle/ads-example-projects) | Example projects and quickstarts |
-| [`n8n-nodes`](https://github.com/agentdatashuttle/n8n-nodes)                       | n8n integration nodes for ADS    |
-| [`python-sdk`](https://github.com/agentdatashuttle/python-sdk)                     | Python SDK for ADS               |
-| [`typescript-sdk`](https://github.com/agentdatashuttle/typescript-sdk)             | TypeScript SDK for ADS           |
+| Repository                                                                         | Description                                                              |
+| ---------------------------------------------------------------------------------- | ------------------------------------------------------------------------ |
+| [`ads-bridge`](https://github.com/agentdatashuttle/ads-bridge)                     | Core bridge server to communicate between ADS Publisher and Subscribers  |
+| [`ads-documentation`](https://github.com/agentdatashuttle/ads-documentation)       | Docs, concepts, and architecture                                         |
+| [`ads-example-projects`](https://github.com/agentdatashuttle/ads-example-projects) | Example projects and quickstarts                                         |
+| [`n8n-nodes`](https://github.com/agentdatashuttle/n8n-nodes)                       | n8n integration nodes for ADS                                            |
+| [`python-sdk`](https://github.com/agentdatashuttle/python-sdk)                     | Python SDK for ADS                                                       |
+| [`typescript-sdk`](https://github.com/agentdatashuttle/typescript-sdk)             | TypeScript SDK for ADS                                                   |
 
 ---
 
@@ -81,7 +81,7 @@ Agent Data Shuttle is released under the **Apache-2.0** license and maintained b
 
 - You need real-time agent invocations based on external events
 - Your AI agent needs to stay current with system events
-- Proactive monitoring and response is crucial—true “autopilot” mode
+- Proactive monitoring and response is crucial - true “autopilot” mode
 
 ---
 
